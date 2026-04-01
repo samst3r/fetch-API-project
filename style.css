@@ -171,7 +171,7 @@ body {
 }
 #scenario-text {
   width: 50%;
-  font-size: 2.7em;
+  font-size: 2.9em;
   text-align: center;
   margin: auto;
   margin-left: 0%;
@@ -183,47 +183,49 @@ body {
   grid-column: 1/13;
   grid-row: 8/10;
 }
-#option-1 {
-  grid-column: 1;
-  grid-row: 1;
+#optionsDiv .option {
   width: 80%;
   height: 95%;
   background-color: #ffcb05;
   display: flex;
   margin: auto;
+  border-radius: 1em;
 }
-#img1 {
+#optionsDiv .option .img {
   height: 7em;
   margin: auto;
 }
-#text1 {
+#optionsDiv .option .text {
   width: 70%;
   height: fit-content;
   text-align: center;
+  margin: auto;
+  font-size: 3em;
+  font-family: "Pokemon";
+  letter-spacing: 0.12em;
+}
+#optionsDiv .option .button {
+  margin: auto;
+  font-size: 3.2em;
+  padding: 1rem;
+  font-family: "pokemon";
+  letter-spacing: 0.13em;
+}
+#option-1 {
+  grid-column: 1;
+  grid-row: 1;
 }
 #option-2 {
   grid-column: 2;
-  width: 90%;
-  height: 95%;
   grid-row: 1;
-  background-color: black;
-  margin: auto;
 }
 
 #option-3 {
   grid-column: 1;
-  width: 90%;
-  height: 95%;
   grid-row: 2;
-  background-color: black;
-  margin: auto;
 }
 
 #option-4 {
   grid-column: 2;
-  width: 90%;
-  height: 95%;
   grid-row: 2;
-  background-color: black;
-  margin: auto;
 }
